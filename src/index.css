@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Outfit";
+}
+
+.nav-logo {
+  font-family: "Jersey 20";
+}
+
+.nav-logo img {
+  height: 4.5rem;
+  border-radius: 50%;
+}
+
+.search-btn img {
+  height: 1rem;
+}
+
+.loader-container {
+  height: calc(100vh - 150px);
+}
+
+.weather-icon {
+  height: 10px;
+}
+
+.day-temp-image {
+  width: 64px;
+}
